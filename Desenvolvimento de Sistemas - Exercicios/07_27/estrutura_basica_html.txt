@@ -1,0 +1,24 @@
+Formatacão de texto
+ - Organização de tags
+
+Listas
+ - <ol/>: lista ordenada
+ - <ul/>: lista não ordenada
+ - <li/>: item da lista
+
+Imagens
+ - <img/>: imagem
+ - src: link / nome do arquivo (caminho)
+ - alt: descreve o conteúdo da imagem
+ - height e width: altura e largura
+
+Links
+ - <a/>
+ - href: referência
+
+Table
+ - <table/>: tabela
+ - <caption/>: facilita a leitura para a pessoa que está lendo
+ - <thead / tbody / tfoot/>: separa a página web em três elementos
+ - <th / tr / td/>: cabeçalho / linha das células / dados/>
+
