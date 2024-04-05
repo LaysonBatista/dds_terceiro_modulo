@@ -8,7 +8,6 @@ Bem-vindo ao meu repositório de projetos desenvolvidos durante o último módul
 - Manutenção de Sistemas;
 - Testes de Sistemas;
 - Internet das Coisas (IoT);
-- Trabalho de Conclusão de Curso (TCC).
 
 ## 📚 Objetivo
 
