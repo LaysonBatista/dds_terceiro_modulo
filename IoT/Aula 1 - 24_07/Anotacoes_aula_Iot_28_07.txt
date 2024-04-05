@@ -1,0 +1,48 @@
+Iot  - Aula 2
+
+---Sensores por tipo de conexao:
+RFID, NFC, WIFI, Bluetooth e Zigbee(chip de conexoa de rede)
+
+---Diferenca de Iot e M2M(maquina para maquina)---
+
+
+Iot = conexao digital de objetos atrlada a um software que analisa os dados 
+gerados e gerencia as açoes a serem tomadas
+
+> Iot tem que esta conectado com a internet
+
+M2M = esta relacionado a troca de informacoes entre dispositivos 
+(enviar informacoes em tempo real para um servidor)
+
+> Area industrial
+> M2M nao precisa esta necessariamente conectado a internet
+
+
+---Impactos da Iot na Big Data---
+PaaS(Plataform as a Service)
+
+---Desafios para a implantacao da Iot---
+(seguranca, privacidade e aceitaçao social)
+
+---Sensores para coleta de dados---
+
+> sensores de temperatura
+- sensores sao componetes eletricos.
+- emite sinal analogico(grande maioria).
+
+> sensores de pressao
+
+> sensores de umidade
+(agricultura)
+
+> sensores de vibraçao
+
+----Extras----
+(Estudar circuitos eletricos para desenvolver um Iot)
+(Cuidado para nao queimar a placa)
+(Ficar atento com a voltagem da placa)
+(Estudar sobre validacao de usuarios)
+(Vamos trabalhar com Arduino Uno e PLC)
+(Vamos trabalhar com C)
+
+Plataforma q vamos usar(WOKWI)
