@@ -1,0 +1,63 @@
+#include <LiquidCrystal.h>
+LiquidCrystal lcd(12,11,10,5,4,3,2);
+
+int backLight = 13;
+int sensorGas = A5;
+int valorGas = 0;
+int botao = 7;
+int estadoBotao = 0;
+int estadoAnteriorBotao = 0;
+int buzzer = A4;
+int ledRed = 0;
+bool ligado = false;
+
+void setup()
+{
+  pinMode(backLight, OUTPUT);
+  digitalWrite(backLight, HIGH);
+  
+  pinMode(ledRed, OUTPUT);
+  pinMode(botao, INPUT);
+  pinMode(buzzer, OUTPUT);
+  pinMode(backLight, OUTPUT);
+  digitalWrite(ledRed, LOW);
+  noTone(buzzer);
+  lcd.begin(16, 2);
+}
+
+void loop()
+{ 
+  valorGas = analogRead(sensorGas);
+
+  if (valorGas > 100)
+  {
+    digitalWrite(ledRed, HIGH);
+    tone(buzzer, 2950);
+    lcd.setCursor(0, 0);
+    lcd.print("PERIGO GASES!");
+  }
+
+  estadoBotao = digitalRead(botao);
+
+  if (estadoBotao == HIGH && estadoAnteriorBotao == LOW)
+  {
+    ligado = !ligado;
+    delay(50); 
+  }
+
+  estadoAnteriorBotao = estadoBotao;
+
+  if (ligado)
+  {
+    digitalWrite(ledRed, HIGH);
+    tone(buzzer, 3000);
+    lcd.setCursor(0, 0);
+    lcd.print("ALERTA PERIGO!");
+  }
+  else
+  {
+    digitalWrite(ledRed, LOW);
+    noTone(buzzer);
+    lcd.clear();
+  }
+}

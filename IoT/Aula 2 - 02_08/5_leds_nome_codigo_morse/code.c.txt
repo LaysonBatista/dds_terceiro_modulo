@@ -1,0 +1,254 @@
+ 
+ int ledPinRed = 12;
+
+ void setup() {
+  // put your setup code here, to run once:
+  pinMode(ledPinRed, OUTPUT);
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+    digitalWrite(ledPinRed, HIGH); //L
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(300);
+    digitalWrite(ledPinRed, HIGH);
+    delay(300);
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000);
+    
+
+    digitalWrite(ledPinRed, HIGH); //A
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600);
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, LOW);
+    delay(600);
+    digitalWrite(ledPinRed, HIGH); //Y
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW); //S
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+    digitalWrite(ledPinRed, LOW); //O
+    delay(600); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+    
+    digitalWrite(ledPinRed, LOW); //N
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); // Ponto
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo (nome)
+    delay(3000); 
+
+
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW); //S
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+    digitalWrite(ledPinRed, LOW); //O
+    delay(600); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000);
+
+
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW); //U
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000);
+
+
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+    digitalWrite(ledPinRed, LOW); //Z
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300);
+    digitalWrite(ledPinRed, LOW);
+    delay(600);
+    digitalWrite(ledPinRed, HIGH);
+    delay(300);
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000);
+
+
+    digitalWrite(ledPinRed, HIGH); //A
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600);
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo(sobrenome)
+    delay(3000); 
+
+
+    digitalWrite(ledPinRed, LOW);
+    delay(600);
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW); //B
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600);
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, HIGH); //A
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600);
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, LOW); //T
+    delay(600);
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW); //I
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW); //S
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+    digitalWrite(ledPinRed, HIGH);
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600); 
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, LOW); //T
+    delay(600);
+
+
+    digitalWrite(ledPinRed, LOW); //intervalo
+    delay(2000); 
+
+
+    digitalWrite(ledPinRed, HIGH); //A
+    delay(300); 
+    digitalWrite(ledPinRed, LOW);
+    delay(600);
+    
+    
+
+    /*delay(1000);
+
+    digitalWrite(ledPinRed, HIGH);
+    delay(500);
+    digitalWrite(ledPinRed, LOW);
+    delay(500);*/
+
+
+
+    
+
+}
