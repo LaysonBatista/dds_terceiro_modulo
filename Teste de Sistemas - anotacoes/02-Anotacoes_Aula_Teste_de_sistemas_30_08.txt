@@ -1,0 +1,173 @@
+Aula Teste de sistemas - 30/08/23
+
+
+- "Uma aplicação nunca pode ser testada de uma única 
+  forma e nem por uma única pessoa"
+
+--------------------------------------------------------------------------
+
+>>>>>> Tipos de testes de sistema <<<<<<
+
+>>> Testa de caixa preta
+
+- Visualização externa(front)
+
+*Teste baseados nos requisitos.
+
+
+-------------------------------------------------------------------------
+>>> Teste de caixa branca
+
+- Visualização interna(back)
+Teste de qualidade de codigo.
+Teste de tecnicas usadas no código.
+
+*Afeta o desempenho!
+*Teste baseados na estrutura interna.
+
+------------------------------------------------------------------------
+
+>>> Teste Unitário
+
+- Testar cada parte do código para validar 
+o resultado da execução.
+
+(Teste realizado pelo dev)
+(Geralmente durante o desenvolvimento)
+
+------------------------------------------------------------------------
+
+>>> Teste de integração
+(acontece majoritariamente depois dos testes unitarios)
+
+- Testar o sistema em partes.
+
+------------------------------------------------------------------------
+
+>>> Teste de sistema
+- Testar o sitema como um todo.
+(se tudo está de acordo com a especificação)
+
+*prova de conceito(PoC)*
+(geralmente feita antes do 
+detalhamento dos requisitos
+
+-----------------------------------------------------------------------
+
+>>> Teste de aceitação
+
+- A finalidade é validar o correto funcionamento do sistema
+
+*Envolvimento direto com o cliente
+*Acontece no final
+*Pode ter varios 
+(cliente final/TI)
+
+-----------------------------------------------------------------------
+
+>>> Teste de regressão
+(mudanças ou atualizações)
+
+- Fazer validações após mudanças.
+- Ter a certeza que o sistema esta.
+- Testar todas as versões do sistema.
+  funcionando após mudanças
+
+--------------------------------------------------------------------
+
+>> Teste de carga
+
+- Teste de limite do funcionamento de sistema.
+- Testar o volume de dados que o sistema aguenta.
+- Testar limite do sistema. 
+
+-------------------------------------------------------------------
+
+>>> Teste de configuração
+
+- Como o sistema vai fucionar em ambientes diferentes(multiplas plataformas).
+
+-------------------------------------------------------------------
+
+>>> Teste de usabilidade
+
+- Time de UX
+- Entra de fato a responsividade
+- Design
+
+-------------------------------------------------------------------
+
+>>> Teste de instalação
+
+- Testar se o manual de instalação esta de fato correto.
+
+-------------------------------------------------------------------
+
+>>> Teste de segurança
+
+- Validar a segurança em geral.
+
+--------------------------------------------------------------------
+
+>> Teste de recuperação
+
+- Validar resiliência do sistema
+
+------------------------------------------------------------------
+
+>>> Teste de desempenho
+
+- Testar desempenho.
+
+------------------------------------------------------------------
+
+>>> Teste de qualidade de código
+
+- Testar a qualidade(boas praticas).
+
+------------------------------------------------------------------
+
+>>> Teste de interoperabilidade
+
+- API's.
+- Ta fazedno oq deveria fazer?
+- integração entre outros sistemas internos ou externos.
+
+------------------------------------------------------------------
+
+>>> Teste de estáticos
+
+- "Clicar no botão e eperar o resultado".
+- Testar o sistema parado.
+
+------------------------------------------------------------------
+
+>>> Teste alfa
+
+- Teste pensando na conclusão do desenvolvimento.
+- São realizados por usuarios que não fazem parte da equipe.
+- simular o uso real do sistema e encontrar o máximo de erros possiveis
+
+------------------------------------------------------------------
+
+>>> Teste Beta
+
+- Teste feio bem próximo da conclusão.
+- Uma das ultimas oportunidades de encontrar defeito antes da
+entrega do sistema para o cliente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
