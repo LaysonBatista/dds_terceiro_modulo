@@ -1,4 +1,4 @@
-# 🚀 Desenvolvimento de Sistemas (SENAI): Terceiro Módulo 🎓
+# :checkered_flag: Desenvolvimento de Sistemas (SENAI): Terceiro Módulo :checkered_flag:
 
 Bem-vindo ao meu repositório de projetos desenvolvidos durante o último módulo do curso de Desenvolvimento de Sistemas no SENAI. Durante 6 meses.
 
