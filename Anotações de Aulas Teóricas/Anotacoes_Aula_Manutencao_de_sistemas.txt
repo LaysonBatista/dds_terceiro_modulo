@@ -1,0 +1,36 @@
+Aula Manutenção de sistemas - 28/08/2023
+
+- SLA = definr prazos para atendimento de chamados de acordo com suas repectivas prioridades resultantes da combinação impacto e urgência.
+
+"Nada sobe para produção sem uma "change"."
+
+PDCA = (planejar, fazer, checar, agir)
+                 <<<<<
+
+- Modelo SMART
+S sepecifico
+M mensuravel
+A alcançavel
+R relevante
+T oportuno
+
+- Rotina de Trabalho na gestão de serviços
+
+- Ferramenta de Gerenciamento de TI
+> GLPI = open source/gratuito
+> Pipefy
+> BMC Remedy
+
+- Ferramenta de Suporte Remoto
+> Microsoft Remote Desktop Connection
+> PuTTY
+> LogMeln
+> TeamViewer
+
+- Extra
+> IA Excel
+> Chat bot WhatsAPP
+
+
+
+
