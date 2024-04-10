@@ -1,0 +1,44 @@
+int buzina = 1;
+int tempo = 300;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(buzina, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  // DO
+  tone(buzina, 262,200);
+  delay(tempo);
+
+  // RE
+  tone(buzina, 294,300);
+  delay(tempo);
+
+  // MI
+  tone(buzina, 330,300);
+  delay(tempo);
+
+  // FA
+  tone(buzina, 349,300);
+  delay(tempo);
+
+  // FA
+  tone(buzina, 349,300);
+  delay(tempo);
+  
+  // MI
+  tone(buzina, 330,300);
+  delay(tempo);
+
+  // RE
+  tone(buzina, 294,300);
+  delay(tempo);
+
+  // DO
+  tone(buzina, 262,200);
+  delay(tempo);
+
+}
